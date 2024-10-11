@@ -150,14 +150,16 @@ padding: 24px 0;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-
-    margin-bottom: 48px;
-    padding-top: 188px;
-    width: 496px;
+    padding-top: 188px ;
+    max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
+     
+    display: block;
+    
         background: #4d5ae5;
         font-weight: 500;
         font-size: 16px;
@@ -169,12 +171,13 @@ padding: 24px 0;
         white-space: nowrap;
         cursor: pointer;
         
-        
+
 }
 .hero-btn-click {
+    
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px; 
     
         }
