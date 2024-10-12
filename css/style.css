@@ -140,6 +140,7 @@ padding: 24px 0;
 .hero-container {
     width: 1158px;
     margin: 0 auto;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -157,9 +158,9 @@ padding: 24px 0;
 }
 
 .hero-btn {
-     
-    display: block;
     
+        margin: 0 auto;
+        display: block;
         background: #4d5ae5;
         font-weight: 500;
         font-size: 16px;
@@ -170,6 +171,8 @@ padding: 24px 0;
         border: none;
         white-space: nowrap;
         cursor: pointer;
+        
+       
         
 
 }
@@ -187,26 +190,45 @@ padding: 24px 0;
 background-color: #404bbf;
 }
 
+.info {
+padding: 120px 0
+} 
 .info-container {
     width: 1158px;
     margin: 0 auto;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
 .info-list {
     display: flex;
     justify-content: space-between;
     margin: 120px 0;
+    gap: 24px; 
 }
  
 
 
 .info-item-title{
-    
+    width: calc((100% - 72px) / 4); 
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 8px;
 }
 .info-text {
     
@@ -224,6 +246,7 @@ background-color: #404bbf;
 
 .team {
 background-color: #F4F4FD;
+padding: 120px 0 
 
 }
 .team-container {
@@ -241,6 +264,7 @@ margin: 0 auto;
         text-align: center;
         color: #2e2f42;
         padding-top: 120px;
+        margin-bottom: 72px;
     
 
 
@@ -248,7 +272,8 @@ margin: 0 auto;
 .our-team-list {
 
 display: flex;
-gap: 20px;
+
+gap: 24px;
 
 }
 
@@ -256,6 +281,8 @@ gap: 20px;
 background-color: #FFFFFF;
 text-align: center;
 margin: 0 24px 120px;
+width: calc((100% - 72px) / 4); 
+border-radius: 0px 0px 4px 4px; 
 
 }
 .our-team-item-title {
@@ -343,16 +370,17 @@ padding: 100px 0 100px;
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+display: inline-block;
 
 }
 
 .page-footer {
     background-color: #2e2f42;
-    
+    padding: 100px 0;
 }
 .footer-container {
     width: 1158px;
     margin: 0 auto;
-    padding-top: 100px ;
+     
     
 }
