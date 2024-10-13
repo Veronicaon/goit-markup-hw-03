@@ -215,10 +215,11 @@ padding: 120px 0
 
 .info-item {
     margin-right: 24px;
-     
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px
 }
 .info-item-title{
-    width: calc((100% - 72px) / 4); 
+    
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
