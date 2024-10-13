@@ -228,11 +228,12 @@ padding: 120px 0
 
 .info-item-title{
     
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -241,7 +242,7 @@ padding: 120px 0
 }    
 .info-text {
     
-        
+    text-align: center;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
