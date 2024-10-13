@@ -223,7 +223,8 @@ padding: 120px 0
 .info-item {
     /* margin-right: 24px; */
     width: calc((100% - 72px) / 4);
-    
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .info-item-title {
