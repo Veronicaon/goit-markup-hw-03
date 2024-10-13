@@ -208,9 +208,9 @@ padding: 120px 0
 .info-list {
     display: flex;
     justify-content: space-between;
-    margin: 120px 0;
+    /* margin: 120px 0; */
     gap: 24px; 
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
 }
  
 
