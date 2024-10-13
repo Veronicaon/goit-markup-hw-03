@@ -209,12 +209,13 @@ padding: 120px 0
     justify-content: space-between;
     margin: 120px 0;
     gap: 24px; 
+    width: calc((100% - 72px) / 4);
 }
  
 
 .info-item {
     margin-right: 24px;
-    width: calc((100% - 72px) / 4); 
+     
 }
 .info-item-title{
     width: calc((100% - 72px) / 4); 
@@ -310,7 +311,8 @@ height: 120px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        margin-bottom: 32px;
+        
+        margin-bottom: 8px
 }
 .portfolio-title {
 
@@ -322,8 +324,8 @@ height: 120px;
     color: #2e2f42;
     text-transform: capitalize;
     margin-top: 120px;
+    margin-bottom: 72px; 
     
-    margin-bottom: 8px
 }
 .portfolio-item-title{
 
@@ -332,6 +334,7 @@ height: 120px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .portfolio-item-text {
@@ -374,16 +377,15 @@ padding: 100px 0 100px;
 }
 
 .footer-logo {
-    margin-bottom: 16px;
+ display: inline-block; 
+   margin-bottom: 16px;
 }
 
 .footer-logo  {
     color: #f4f4fd;
 
 }
-.logo-part {
-    display: inline-block;
-}
+
 
 .page-footer {
     background-color: #2e2f42;
